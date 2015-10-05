@@ -25,20 +25,9 @@
 
 
 /*Plan:
- *
- *
- *
- * 	Global varibles segmentation problem!!!!!!!!!!!!!!------> the reason of bad stitching???----->solved: 06.02.2015
- * solve black egde!! --->31.01.2015
- * multiple stiching skipping every 5 frames -------->31.01.2015
- * read jpg first and save to ppm and then read ppm
- * !!!!!background merge!!!!-----? worth trying!------>04.02.2015
- * ----------? graduatually weight problem!!!!!
- * if ok! Try all!
  */
 
 /*	Done:
- * 1) Clean this code! ---->? how about learning Github?
  * 2) Image blending method? ---->done 10.01.2015
  * 3) New segmentation method?
  * 4) pgm --> ppm --> jpg? ------>done: imwrite(".ppm")31.01.2015
