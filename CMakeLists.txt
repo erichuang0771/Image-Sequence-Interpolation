@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( ImageD )
+find_package( OpenCV REQUIRED )
+INCLUDE_DIRECTORIES ( "/usr/local/include" )
+INCLUDE_DIRECTORIES ( "/usr/local/include/eigen3" )
+add_executable( ImageD TestMain.cpp )
+target_link_libraries( ImageD ${OpenCV_LIBS} )
